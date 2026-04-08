@@ -10,12 +10,12 @@ ronny.el is a dark colorscheme for [Emacs](https://www.gnu.org/software/emacs), 
 
 ## Installation
 
-Install via package manager (e.g. [use-package](https://jwiegley.github.io/use-package/) (built-in), [Straight.el](https://github.com/radian-software/straight.el) or [Quelpa](https://github.com/quelpa/quelpa)):
+Install via package manager (e.g. [use-package](https://jwiegley.github.io/use-package/) (built-in) or [Straight.el](https://github.com/radian-software/straight.el)):
 
 <details><summary>use-package (built-in)</summary>
 
 ```elisp
-(use-package ronny
+(use-package ronny-theme
   :vc (:fetcher github :repo "judaew/ronny.el"))
 ```
 
@@ -24,20 +24,15 @@ Install via package manager (e.g. [use-package](https://jwiegley.github.io/use-p
 <details><summary>Straight.el</summary>
 
 ```elisp
+(use-package ronny-theme
+  :straight (:host github :repo "judaew/ronny.el" )
+
+;; or
+
 (straight-use-package
- 'ronny
- :type git
- :repo "https://github.com/judaew/ronny.el.git")
-```
-
-</details>
-
-<details><summary>Quelpa</summary>
-
-```elisp
-(quelpa '(ronny
-          :fetcher git
-          :url "https://github.com/judaew/ronny.el.git"))
+ 'ronny-theme
+ :host github
+ :repo "judaew/ronny.el")
 ```
 
 </details>
@@ -49,9 +44,15 @@ Download the `ronny.el` file and put it in your `load-path`.
 ## Usage
 
 ```elisp
+;; ⚠️ WARNING: This theme is not available in MELPA yet.
+;; You need to install it using either:
+;; - straight.el, or
+;; - use-package :vc (Emacs 29 and above)
+;; - manual
+
 (use-package ronny
-  ;; ...
-  :config (load-theme 'ronny))
+ :straight (:host github :repo "judaew/ronny.el")
+ :config (load-theme 'ronny t))
 ```
 
 ## Something is broken but I know how to fix it!
