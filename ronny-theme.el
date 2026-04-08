@@ -140,36 +140,6 @@ The theme has to be reloaded after changing anything in this group."
   :type 'string
   :group 'ronny)
 
-(defcustom ronny-heading1-size 1.2
-  "Font size for level 1 headings."
-  :type 'number
-  :group 'ronny)
-
-(defcustom ronny-heading2-size 1.2
-  "Font size for level 2 headings."
-  :type 'number
-  :group 'ronny)
-
-(defcustom ronny-heading3-size 1.15
-  "Font size for level 3 headings."
-  :type 'number
-  :group 'ronny)
-
-(defcustom ronny-heading4-size 1.1
-  "Font size for level 4 headings."
-  :type 'number
-  :group 'ronny)
-
-(defcustom ronny-heading5-size 1.1
-  "Font size for level 5 headings."
-  :type 'number
-  :group 'ronny)
-
-(defcustom ronny-heading6-size 1.1
-  "Font size for level 6 headings."
-  :type 'number
-  :group 'ronny)
-
 (defcustom ronny-heading1-color "#FD971F" ;; ,ronny-yellow
   "Color for level 1 headings."
   :type 'string
@@ -285,12 +255,12 @@ The theme has to be reloaded after changing anything in this group."
  `(font-lock-property-name-face ((t (:foreground ,ronny-yellow))))
 
  ;; outline-*
- `(outline-1 ((t (:height ,ronny-heading1-size :foreground ,ronny-heading1-color))))
- `(outline-2 ((t (:height ,ronny-heading2-size :foreground ,ronny-heading2-color))))
- `(outline-3 ((t (:height ,ronny-heading3-size :foreground ,ronny-heading3-color))))
- `(outline-4 ((t (:height ,ronny-heading4-size :foreground ,ronny-heading4-color))))
- `(outline-5 ((t (:height ,ronny-heading5-size :foreground ,ronny-heading5-color))))
- `(outline-6 ((t (:height ,ronny-heading6-size :foreground ,ronny-heading6-color))))
+ `(outline-1 ((t (:foreground ,ronny-heading1-color))))
+ `(outline-2 ((t (:foreground ,ronny-heading2-color))))
+ `(outline-3 ((t (:foreground ,ronny-heading3-color))))
+ `(outline-4 ((t (:foreground ,ronny-heading4-color))))
+ `(outline-5 ((t (:foreground ,ronny-heading5-color))))
+ `(outline-6 ((t (:foreground ,ronny-heading6-color))))
 
  ;; TODO: Tab line
  ;; `(tab-line ((t (:height 1.0))))
@@ -299,7 +269,7 @@ The theme has to be reloaded after changing anything in this group."
  ;; `(tab-line-tab-inactive ((t (:foreground unspecified :background unspecified))))
 
  ;; TODO: org-mode
- `(org-document-title ((t :height ,ronny-heading1-size :weight bold :foreground ,ronny-heading1-color)))
+ `(org-document-title ((t (:weight bold :foreground ,ronny-heading1-color))))
  `(org-drawer ((t (:inherit font-lock-comment-face))))
  `(org-document-info ((t (:foreground ,ronny-yellow))))
  ;; `(org-date ((t ())))
