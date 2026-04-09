@@ -341,9 +341,27 @@ The theme has to be reloaded after changing anything in this group."
 
  ;; TODO: Avy/Ace-window (navigation)
 
+ ;; TODO:
+ ;; - diff-added, diff-removed, ...
+ ;; magit
+ `(magit-branch-remote ((t (:foreground ,ronny-green))))
+ `(magit-branch-local ((t (:foreground ,ronny-bright-cyan))))
+ `(magit-section-heading ((t (:foreground ,ronny-yellow :weight bold))))
+ `(magit-diff-removed ((t (:foreground ,ronny-red :background "#2D1418"))))
+ `(magit-diff-added ((t (:foreground ,ronny-green :background "#1C2610"))))
+ `(magit-diff-removed-highlight ((t (:inherit magit-diff-removed))))
+ `(magit-diff-added-highlight ((t (:inherit magit-diff-added))))
+ `(magit-section-highlight ((t (:background ,ronny-black3))))
+ `(magit-diff-context-highlight ((t (:background ,ronny-black3))))
+ `(magit-diffstat-added ((t (:foreground ,ronny-green))))
+ `(magit-diffstat-removed ((t (:foreground ,ronny-red))))
+ ;; diff-hl
+ `(diff-hl-delete ((t (:foreground ,ronny-bright-red :background ,ronny-bright-red))))
+ `(diff-hl-change ((t (:foreground ,ronny-bright-black :background ,ronny-bright-black))))
+ `(diff-hl-insert ((t (:foreground ,ronny-green :background ,ronny-green))))
+
  ;; Jinx (spell checking)
  `(jinx-misspelled ((t (:underline (:style wave :color ,ronny-bright-yellow)))))
-
  )
 
 ;;;###autoload
