@@ -262,11 +262,14 @@ The theme has to be reloaded after changing anything in this group."
  `(outline-5 ((t (:foreground ,ronny-heading5-color))))
  `(outline-6 ((t (:foreground ,ronny-heading6-color))))
 
- ;; TODO: Tab line
- ;; `(tab-line ((t (:height 1.0))))
- ;; `(tab-line-tab ((t (:foreground unspecified :background unspecified))))
- ;; `(tab-line-tab-current ((t (:foreground unspecified :weight bold :overline t))))
- ;; `(tab-line-tab-inactive ((t (:foreground unspecified :background unspecified))))
+ ;; Tab line
+ `(tab-line-tab ((t (:foreground ,ronny-bright-white :background ,ronny-black))))
+ `(tab-line-tab-current ((t (:inherit tab-line-tab))))
+ `(tab-line-tab-inactive ((t (:foreground ,ronny-white :background ,ronny-black3))))
+ ;; Tab bar
+ `(tab-bar-tab ((t (:foreground ,ronny-bright-white :background ,ronny-black))))
+ `(tab-bar-tab-inactive ((t (:foreground ,ronny-white :background ,ronny-black3))))
+ `(tab-bar-tab-highlight ((t (:foreground ,ronny-white :background ,ronny-black2 :box (:line-width 1 :style released-button)))))
 
  ;; TODO: org-mode
  `(org-document-title ((t (:weight bold :foreground ,ronny-heading1-color))))
@@ -294,6 +297,7 @@ The theme has to be reloaded after changing anything in this group."
  `(diredfl-deletion ((t (:foreground "#e74c3c" :background "#442724"))))
  `(diredfl-deletion-file-name ((t (:foreground "#e74c3c" :background "#442724"))))
  `(diredfl-file-suffix ((t (:inherit shadow))))
+ ;; dired-subtree
  `(dired-subtree-depth-1-face ((t (:background ,ronny-black2))))
  `(dired-subtree-depth-2-face ((t (:background ,ronny-black3))))
 
