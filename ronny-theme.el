@@ -284,10 +284,11 @@ The theme has to be reloaded after changing anything in this group."
  ;; `(org-code ((t ())))
  ;; `(org-verbatim ((t ())))
 
- ;; dired-mode/diredfl-mode/dired-subtree
+ ;; dired-mode
  `(dired-symlink ((t (:foreground ,ronny-violet :slant italic))))
  `(dired-marked ((t (:foreground ,ronny-bright-green :weight bold))))
  `(dired-flagged ((t (:foreground ,ronny-bright-red :weight bold))))
+ ;; diredfl-mode
  `(diredfl-dir-heading ((t (:foreground ,ronny-bright-cyan :weight bold))))
  `(diredfl-dir-name ((t (:foreground ,ronny-bright-cyan :weight bold))))
  `(diredfl-file-name ((t (:foreground ,ronny-bright-white))))
