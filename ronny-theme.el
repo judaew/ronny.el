@@ -278,7 +278,7 @@ The theme has to be reloaded after changing anything in this group."
  ;; `(org-date ((t ())))
  ;; `(org-todo ((t ())))
  ;; `(org-done ((t ())))
- ;; `(org-block ((t ())))
+ `(org-block ((t (:background ,ronny-black2))))
  ;; `(org-block-begin-line ((t ())))
  ;; `(org-table ((t ())))
  ;; `(org-code ((t ())))
