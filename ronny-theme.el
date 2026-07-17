@@ -188,6 +188,12 @@ The theme has to be reloaded after changing anything in this group."
  `(mode-line-inactive ((t (:foreground ,ronny-bright-black :background "#171819" :box unspecified))))
  `(mode-line-buffer-id ((t (:weight bold))))
 
+ ;; Menu (this line: File Edit Options Buffers Help)
+ `(menu ((t (:foreground ,ronny-white :background ,ronny-black3))))
+ `(tty-menu-disabled-face ((t (:foreground "#555556" :background ,ronny-black2))))
+ `(tty-menu-enabled-face ((t (:inherit tooltip))))
+ `(tty-menu-selected-face ((t (:background ,ronny-black3))))
+
  ;; Line numbers
  `(line-number ((t (:foreground "#555556" :background ,ronny-black2))))
  `(line-number-current-line ((t (:foreground ,ronny-white :background ,ronny-black2))))
