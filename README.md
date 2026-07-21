@@ -16,7 +16,7 @@ Install via package manager (e.g. [use-package](https://jwiegley.github.io/use-p
 
 ```elisp
 (use-package ronny-theme
-  :vc (:fetcher github :repo "judaew/ronny.el"))
+  :vc (:url "https://github.com/judaew/ronny.el" :branch "main"))
 ```
 
 </details>
