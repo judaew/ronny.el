@@ -1,4 +1,4 @@
-;;; ronny-theme.el --- A ronny.el colorscheme for Emacs. -*- lexical-binding: t; -*-
+;;; ronny-theme.el --- A ronny.el colorscheme -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2026
 ;;
@@ -368,8 +368,7 @@ The theme has to be reloaded after changing anything in this group."
  `(diff-hl-insert ((t (:foreground ,ronny-green :background ,ronny-green))))
 
  ;; Jinx (spell checking)
- `(jinx-misspelled ((t (:underline (:style wave :color ,ronny-bright-yellow)))))
- )
+ `(jinx-misspelled ((t (:underline (:style wave :color ,ronny-bright-yellow))))))
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
