@@ -1,8 +1,8 @@
-;;; ronny-theme.el --- A ronny.el colorscheme -*- lexical-binding: t; -*-
+;;; ronny-theme.el --- A ronny.el colorscheme inspired by Monokai -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2026
 ;;
-;; Author: Vadym-Valdis Yudaiev
+;; Author: Vadym-Valdis Yudaiev <judaew@outlook.com>
 ;; URL: https://github.com/judaew/ronny.el
 ;; SPDX-License-Identifier: MIT
 ;; Version: 0.1
@@ -376,10 +376,5 @@ The theme has to be reloaded after changing anything in this group."
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'ronny)
-
-;; Local Variables:
-;; no-byte-compile: t
-;; fill-column: 95
-;; End:
 
 ;;; ronny-theme.el ends here
