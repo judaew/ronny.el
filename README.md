@@ -4,9 +4,15 @@
 
 </div>
 
-ronny.el is a dark colorscheme for [Emacs](https://www.gnu.org/software/emacs), which mostly was inspired by the Monokai originally created by Wimem Hazenberg.
+`ronny.el` is a dark colorscheme for [Emacs](https://www.gnu.org/software/emacs), mostly inspired by the original Monokai created by Wimer Hazenberg.
 
 ![ronny.el](https://github.com/user-attachments/assets/5be04691-fc14-4456-8314-9ff37e50103d)
+
+It aims to preserve the familiar Monokai aesthetic while offering:
+- a cooler, more neutral background and UI
+- subtle interface elements that keep the focus on the code
+- muted yet readable comments that reduce visual noise
+- expanded semantic highlighting for modern font-lock faces, Tree-sitter, and modern packages.
 
 ## Installation
 

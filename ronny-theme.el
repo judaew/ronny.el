@@ -1,4 +1,4 @@
-;;; ronny-theme.el --- A ronny.el colorscheme inspired by Monokai -*- lexical-binding: t; -*-
+;;; ronny-theme.el --- A ronny.el is a dark colorscheme inspired by Monokai -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2026
 ;;
@@ -10,8 +10,15 @@
 
 ;;; Commentary:
 ;;
-;; ronny.el is a dark colorscheme for Emacs, which mostly was inspired
-;; by the Monokai originally created by Wimem Hazenberg.
+;; ronny.el is a dark colorscheme for Emacs, mostly inspired by the original
+;; Monokai created by Wimer Hazenberg.
+;;
+;; It aims to preserve the familiar Monokai aesthetic while offering:
+;; - a cooler, more neutral background and UI
+;; - subtle interface elements that keep the focus on the code
+;; - muted yet readable comments that reduce visual noise
+;; - expanded semantic highlighting for modern font-lock faces,
+;;   Tree-sitter, and modern packages.
 ;;
 ;; Credits:
 ;;
