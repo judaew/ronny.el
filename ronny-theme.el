@@ -1,4 +1,4 @@
-;;; ronny-theme.el --- A ronny.el is a dark colorscheme inspired by Monokai -*- lexical-binding: t; -*-
+;;; ronny-theme.el --- A dark colorscheme inspired by Monokai -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2026
 ;;
