@@ -17,51 +17,19 @@ It aims to preserve the familiar Monokai aesthetic while offering:
 - muted yet readable comments that reduce visual noise
 - expanded semantic highlighting for modern font-lock faces, Tree-sitter, and modern packages.
 
-## Installation
+## Installation & Usage
 
-Install via package manager (e.g. [use-package](https://jwiegley.github.io/use-package/) (built-in) or [Straight.el](https://github.com/radian-software/straight.el)):
+`ronny.el` is available from MELPA and can be installed via `package-install` or `use-package`:
 
-<details><summary>use-package (built-in)</summary>
+### package-install:
 
-```elisp
-(use-package ronny-theme
-  :vc (:url "https://github.com/judaew/ronny.el" :branch "main"))
-```
+`M-x package-install RET ronny-theme RET`. After installation, load the theme with `M-x load-theme RET ronny RET`
 
-</details>
-
-<details><summary>Straight.el</summary>
+### use-package
 
 ```elisp
 (use-package ronny-theme
-  :straight (:host github :repo "judaew/ronny.el" )
-
-;; or
-
-(straight-use-package
- 'ronny-theme
- :host github
- :repo "judaew/ronny.el")
-```
-
-</details>
-
-<details><summary>Manual</summary>
-Download the `ronny.el` file and put it in your `load-path`.
-</details>
-
-## Usage
-
-```elisp
-;; ⚠️ WARNING: This theme is not available in MELPA yet.
-;; You need to install it using either:
-;; - straight.el, or
-;; - use-package :vc (Emacs 29 and above)
-;; - manual
-
-(use-package ronny
- :straight (:host github :repo "judaew/ronny.el")
- :config (load-theme 'ronny t))
+  :config (load-theme 'ronny t)
 ```
 
 ## Something is broken but I know how to fix it!
