@@ -29,7 +29,7 @@ It aims to preserve the familiar Monokai aesthetic while offering:
 
 ```elisp
 (use-package ronny-theme
-  :config (load-theme 'ronny t)
+  :config (load-theme 'ronny t))
 ```
 
 ## Something is broken but I know how to fix it!
