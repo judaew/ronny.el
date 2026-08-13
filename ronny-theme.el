@@ -301,9 +301,10 @@ The theme has to be reloaded after changing anything in this group."
  `(dired-symlink ((t (:foreground ,ronny-violet :slant italic))))
  `(dired-marked ((t (:foreground ,ronny-bright-green :weight bold))))
  `(dired-flagged ((t (:foreground ,ronny-bright-red :weight bold))))
+ `(dired-directory ((t (:foreground ,ronny-bright-cyan :weight bold))))
  ;; diredfl-mode
- `(diredfl-dir-heading ((t (:foreground ,ronny-bright-cyan :weight bold))))
- `(diredfl-dir-name ((t (:foreground ,ronny-bright-cyan :weight bold))))
+ `(diredfl-dir-heading ((t (:inherit dired-directory))))
+ `(diredfl-dir-name ((t (:inherit dired-directory))))
  `(diredfl-file-name ((t (:foreground ,ronny-bright-white))))
  `(diredfl-symlink ((t (:foreground ,ronny-violet :slant italic))))
  `(diredfl-flag-mark ((t (:foreground "#e2c770"  :background "#433f2f"))))
