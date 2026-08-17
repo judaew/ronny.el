@@ -350,7 +350,7 @@ The theme has to be reloaded after changing anything in this group."
  `(vertico-current ((t (:background ,ronny-black3))))
  `(consult-line-number ((t (:foreground ,ronny-gray))))
  `(corfu-default ((t (:inherit tooltip))))
- `(corfu-current ((t (:foreground "#d6d6d4" :background ,ronny-black))))
+ `(corfu-current ((t (:foreground "#d6d6d4" :background ,ronny-black3))))
  `(corfu-bar ((t (:background "#a8a8a8"))))
  `(corfu-border ((t (:background ,ronny-black3))))
 
