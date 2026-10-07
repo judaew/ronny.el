@@ -2,7 +2,7 @@
 
 # ronny.el
 
-![MELPA](https://melpa.org/packages/ronny-theme-badge.svg)](https://melpa.org/#/ronny-theme)
+[![MELPA](https://melpa.org/packages/ronny-theme-badge.svg)](https://melpa.org/#/ronny-theme)
 ![GitHub License](https://badgen.net/github/license/judaew/ronny.el)
 
 </div>
